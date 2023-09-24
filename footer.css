@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Rubik, sans-serif;
+  scroll-behavior: smooth;
+}
+/*Start Footer Section */
+.box{
+    gap: 12px;
+    flex-direction: column;
+  }
+  .big-footer-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    gap: 45px;
+    padding: 80px var(--padding-inline-section);
+    
+  }
+
+  .main-footer{
+   color: #FFFFFF;
+   background-color: #6674cc; 
+   padding: 40px 0;
+  }
+  .big-footer-container h4 {
+    color: var(--primary-text-color);
+    font-size: larger;
+  }
+  #logo{
+    width: 45px;
+  }
+  
+  .fot {
+    background-color: #6674cc;
+  }
+  
+  /* Sub Footer */
+  .main-sub-footer {
+    color: #FFFFFF;
+    background-color: #6674cc;
+  }
+  
+  .main-sub-footer p {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #adaaaa;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  /*End Footer Section */
