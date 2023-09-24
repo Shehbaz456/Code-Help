@@ -6,8 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home-CodeHelp</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .btn_cur{
+      cursor: pointer;
+    }
+    button:active{
+      scale: 0.97;
+    }
+    h4{
+      cursor: pointer;
+    }
+  </style>
 </head>
-
 <body>
   <!-- Start Navbar Section -->
   <header class="ld-main-col-nav">
@@ -25,8 +35,8 @@
           <li class="nav-item"><a href="contact.html">Contact</a></li>
   
           <div class="nav-btn">
-            <a href="signin-page.html"><button>Register</button></a>
-            <a href="login.html" style="cursor: pointer;"><button>Login</button></a>
+            <a href="signin-page.html"><button class="btn_cur">Register</button></a>
+  <a href="login.html" style="cursor: pointer;"><button class="btn_cur">Login</button></a>
           </div>
         </ul>
         <div class="hamburger">
@@ -39,10 +49,9 @@
   </header>
   <!-- End Navbar Section -->
 
-
   <!-- Start Landing Page Section slide 1 -->
   <section class="main-bg">
-    <div class="main-empty-space" style="height: 30px;"></div>
+    <div class="main-empty-space" style="height: 50px;"></div>
     <div class="sl1-con container">
       <div class="main-left-div">
         <h1>
@@ -80,7 +89,6 @@
   </section>
   <!-- End Landing Page Section slide 1 -->
   
-
   <!-- Start Cards WHY CODE-HELP? Section slide 2  -->
   <section class="sl2-bgcol">
     <div class="container">
@@ -89,8 +97,8 @@
         <p class="sub-heading text-center marg-auto">Making learning easier and more convenient for you.</p>
       </div>
     </div>
-    <div class="container sl2-grid-con">
-      <div class="sl2-card sl2-card1-bottom-col text-center">
+    <div class="container sl2-grid-con ">
+      <div class="sl2-card sl2-card1-bottom-col text-center btn_cur">
         <div class="sl2-icon sl2-icon1-col">
           <button>
             <img src="svg-export/svgexport-10.svg" alt="">
@@ -103,8 +111,8 @@
         </p>
       </div>
 
-      <div class="sl2-card sl2-card2-bottom-col">
-        <div class="sl2-icon sl2-icon2-col button">
+      <div class="sl2-card sl2-card2-bottom-col btn_cur">
+        <div class="sl2-icon sl2-icon2-col button ">
           <button>
             <img src="svg-export/svgexport-11.svg" alt="">
           </button>
@@ -116,7 +124,7 @@
         </p>
       </div>
 
-      <div class="sl2-card sl2-card3-bottom-col">
+      <div class="sl2-card sl2-card3-bottom-col btn_cur">
         <div class="sl2-icon sl2-icon3-col ">
           <button>
             <img src="svg-export/svgexport-12.svg" alt="">
@@ -129,7 +137,7 @@
         </p>
       </div>
 
-      <div class="sl2-card sl2-card4-bottom-col">
+      <div class="sl2-card sl2-card4-bottom-col btn_cur">
         <div class="sl2-icon sl2-icon4-col ">
           <button>
             <img src="svg-export/svgexport-13.svg" alt="">
@@ -141,7 +149,7 @@
         </p>
       </div>
 
-      <div class="sl2-card sl2-card5-bottom-col">
+      <div class="sl2-card sl2-card5-bottom-col btn_cur">
         <div class="sl2-icon sl2-icon5-col ">
           <button>
             <img src="svg-export/svgexport-14.svg" alt="">
@@ -153,7 +161,7 @@
         </p>
       </div>
 
-      <div class="sl2-card sl2-card6-bottom-col">
+      <div class="sl2-card sl2-card6-bottom-col btn_cur">
         <div class="sl2-icon sl2-icon6-col ">
           <button>
             <img src="svg-export/svgexport-15.svg" alt="">
@@ -251,7 +259,7 @@
         <p class="sub-heading text-center course-main-para">Recorded <span class="pri-clr">Courses</span></p>
       </div>
       <div class="course-card-con">
-        <div class="course-card">
+        <div class="course-card btn_cur">
           <div class="cours-card-pd sl2-card">
             <div>
               <img class="boy-svg-img" src="images/thumbnail-3-big-img.jpg" alt="">
@@ -266,7 +274,7 @@
           </div>
           <div class="border-bottom-card"></div>
         </div>
-        <div class="course-card">
+        <div class="course-card btn_cur">
           <div class="cours-card-pd sl2-card">
             <div>
               <img class="boy-svg-img " src="images/thumbnail-2-big-img.jpg" alt="">
@@ -401,7 +409,7 @@
           come by and connect with us on the following links.</p>
       </div>
       <div class="container py-28 big-icon-cont">
-        <div class="big-img-box">
+        <div class="big-img-box btn_cur">
           <img class="big-icon-img" src="images/Youtube_Oct_Denoiser_Beauty_001_copy_6a63d8ef65.png" alt="">
           <div class="display:flex">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="16" width="16"
@@ -414,7 +422,7 @@
             <span class="yout-col text-2xl">YouTube</span>
           </div>
         </div>
-        <div class="big-img-box">
+        <div class="big-img-box btn_cur">
           <img class="big-icon-img" src="images/Linked_In_Oct_Denoiser_Beauty_001_copy_b6e0b974bb.png" alt="">
           <div class="display:flex">
             <a href="#">
@@ -429,7 +437,7 @@
             </a>
           </div>
         </div>
-        <div class="big-img-box">
+        <div class="big-img-box btn_cur">
           <img class="big-icon-img" src="images/Discord_Oct_Denoiser_Beauty_001_copy_a253ed4d28.png" alt="">
           <div class="display:flex">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="16" width="16"
@@ -442,7 +450,7 @@
             <span class="Discord-clr text-2xl">Discord</span>
           </div>
         </div>
-        <div class="big-img-box">
+        <div class="big-img-box btn_cur">
           <img class="big-icon-img" src="images/Telegram_Oct_Denoiser_Beauty_002_copy_fa9aeac119.png" alt="">
           <div class="display:flex">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="16" width="16"
@@ -470,7 +478,7 @@
         </div>
 
         <div class="box flex">
-          <li><img style="width: 26%;" id="logo" src="https://cdn.thecodehelp.in/hoktffneuv795jansa8z_bdff2537c7.svg" alt="" /></li>
+          <li><img style="width: 26%; cursor: pointer;" id="logo" src="https://cdn.thecodehelp.in/hoktffneuv795jansa8z_bdff2537c7.svg" alt="" /></li>
           <h4>CODE HELP</h4>
           <p>The Ultimate Guide To Ace SDE Interviews.</p>
         </div>
@@ -486,7 +494,7 @@
           <li><a href="#"></a>Privacy Policy</li>
           <li><a href="#"></a>Term of use</li>
           <li><a href="#"></a>Refund & Cancellation Policy</li>
-          <li></li>
+        
         </div>
         <div class="box flex">
           <h4>GET IN TOUCH</h4>
